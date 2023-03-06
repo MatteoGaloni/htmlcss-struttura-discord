@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: green;
+    background-color: orange;
     color: black;
 }
 
@@ -79,4 +79,9 @@ nav{
 
 .grey.background{
     background-color: #d3d3d3;
+}
+
+.greenbox{
+    background-color: green;
+    width: 100%;
 }
