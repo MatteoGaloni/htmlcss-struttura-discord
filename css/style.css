@@ -85,3 +85,25 @@ nav{
     background-color: green;
     width: 100%;
 }
+
+.smoke.background{
+    background-color: #23272a;
+
+}
+
+.mintbox{
+    background-color: #20b2aa;
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallMintBox{
+    width: 25%;
+    border: solid 1px;
+}
+
+.salmonbox{
+    background-color: #f08080;
+    width: 33%;
+}
