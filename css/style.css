@@ -46,11 +46,14 @@ nav{
     width: 45%;
 }
 
-.whiteBackground{
-    background-color: white;
+.background{
     display: flex;
     justify-content: center;
     padding: 2em;
+}
+
+.white.background{
+    background-color: white;
 }
 
 .container{   
@@ -60,12 +63,8 @@ nav{
     justify-content: center;    
 }
 
-.containerReverse{ 
+.container.reverse{
     flex-direction: row-reverse;
-    height: 500px;
-    width: 70%;
-    display: flex;
-    justify-content: center;    
 }
 
 .lightbluebox{
@@ -78,10 +77,6 @@ nav{
     width: 33%;
 }
 
-.greyBackground{
+.grey.background{
     background-color: #d3d3d3;
-    display: flex;    
-    align-items: center;
-    justify-content: center;
-    padding: 2em;
 }
