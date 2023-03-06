@@ -30,7 +30,7 @@ nav{
 .button{
     min-width: 100px;
     padding: 1em;
-    border: solid 1px;
+    /* border: solid 1px; */
 }
 
 .blueBackground{
@@ -100,10 +100,24 @@ nav{
 
 .smallMintBox{
     width: 25%;
+    /* per evidenziare i 4div */
     border: solid 1px;
 }
+
 
 .salmonbox{
     background-color: #f08080;
     width: 33%;
+}
+
+#lastBlock{
+    background-color: #23272a;    
+}
+
+.flexContainer.last{
+    background-color: #7fffd4;
+}
+
+.button.last{
+    background-color: #ffb6c1;
 }
