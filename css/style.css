@@ -10,7 +10,12 @@ body{
 }
 
 header{
-    background-color: aqua;   
+    background-color: #add8e6;
+    min-height: 580px; 
+}
+
+nav{
+    padding: 1em;
 }
 
 .flexContainer{
@@ -19,7 +24,7 @@ header{
     justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: yellow;        
+    background-color: #daa520;        
 }
 
 .button{
@@ -27,3 +32,18 @@ header{
     padding: 1em;
     border: solid 1px;
 }
+
+.blueBackground{
+    background-color: #00008b;    
+    display: flex;
+    justify-content: center;
+    padding: 2em  
+}
+
+
+.pinkContent1{
+    background-color: #ee82ee;
+    min-height: 300px;
+    width: 45%;
+}
+    
